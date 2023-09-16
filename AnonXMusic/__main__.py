@@ -10,9 +10,8 @@ from AnonXMusic.core.call import Anony
 from AnonXMusic.misc import sudo
 from AnonXMusic.plugins import ALL_MODULES
 from AnonXMusic.utils.database import get_banned_users, get_gbanned
-from AnonXMusic.plugins.play.azan import send_prayer_alerts
 from config import BANNED_USERS
-
+from AnonXMusic.plugins.play.azan import send_prayer_alerts
 
 async def init():
     if (
